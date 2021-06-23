@@ -8,7 +8,6 @@ user = 'ajkim'
 data = []
 exceptions = []
 
-
 with open('C:\\Users\\'+user+'\\Downloads\\ttcodes.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for i in csv_reader:
